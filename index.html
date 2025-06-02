@@ -12,7 +12,7 @@
     <script>
       function calculate() {
         expression = document.getElementById("expression").value;
-        alert(eval(expression));
+        document.getElementById("expression").value = eval(expression);
       }
     </script>
   </head>
